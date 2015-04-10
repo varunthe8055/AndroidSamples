@@ -16,7 +16,6 @@ public class Hotnessql extends Activity implements OnClickListener{
 	EditText ethoty, etscaly;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.hotnessql);
 		
