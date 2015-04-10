@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <EditText
+        android:id="@+id/etsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/strtre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/strte"
+        android:layout_alignBottom="@+id/strte"
+        android:layout_alignRight="@+id/etsend"
+        android:text="reslt" />
+
+    <Button
+        android:id="@+id/strte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etsend"
+        android:layout_below="@+id/etsend"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:text="btntext" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/strte"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="got" />
+
+</RelativeLayout>
